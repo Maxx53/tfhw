@@ -1,0 +1,25 @@
+PS D:\EPAM_WORK\DZ\terraform\tfhw\task1> terraform apply --auto-approve
+
+No changes. Your infrastructure matches the configuration.
+
+Terraform has compared your real infrastructure against your configuration and found no differences, so no changes are needed.
+
+Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+security_groups_names = {
+  "sg-04e0b9401ec0f081a" = "epam-world"
+  "sg-0767ba8375eb4e3cb" = "customer"
+  "sg-07b75e6778b617c7c" = "epam-europe"
+  "sg-0a8b5db2a7dcca42a" = "epam-by-ru"
+  "sg-0fa596734fffbc28f" = "eks-cluster-sg-my-terraform-eks-1259969613"
+  "sg-8d0f0dfe" = "default"
+}
+subnet_ids_with_cidrs = [
+  "subnet-18068254 = 172.31.0.0/20",
+  "subnet-2965d455 = 172.31.32.0/20",
+  "subnet-dc4a30b6 = 172.31.16.0/20",
+]
+vpc_id_with_cidr = "vpc-6c6dfe06 = 172.31.0.0/16"
+PS D:\EPAM_WORK\DZ\terraform\tfhw\task1>
